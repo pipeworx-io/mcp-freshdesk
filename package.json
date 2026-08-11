@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-freshdesk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
   "type": "module",
   "main": "src/index.ts",
