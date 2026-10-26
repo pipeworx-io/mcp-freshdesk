@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-freshdesk",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-53382c178f2880778a6b0c9ac0e917e2d625921a6dcda2b23e644b1d380bd965",
-    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+    "sourceHash": "v1-64b997eef0a67d75f5a024dc659ff0e2bb35e33049061d3f598cb88bb007ab1e",
+    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
   }
 }
