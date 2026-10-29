@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-freshdesk",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-freshdesk": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "freshdesk"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-freshdesk.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/freshdesk",
   "pipeworx": {
-    "sourceHash": "v1-64b997eef0a67d75f5a024dc659ff0e2bb35e33049061d3f598cb88bb007ab1e",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "freshdesk",
+    "gatewaySlug": "freshdesk",
+    "sourceHash": "v1-423dd968d846e6bd50b746c1164c0d8b8539b79e18f4f55376bbadb76f4b4293",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
