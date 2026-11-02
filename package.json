@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-freshdesk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "freshdesk",
     "gatewaySlug": "freshdesk",
-    "sourceHash": "v1-423dd968d846e6bd50b746c1164c0d8b8539b79e18f4f55376bbadb76f4b4293",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-72c8e62de4a5ff34ff6394923b7dadb165f99dee44ab92f90e4533c0a117887c",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
